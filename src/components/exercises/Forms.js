@@ -69,6 +69,10 @@ export default withStyles(styles)(class extends React.Component{
                     />
                     <br/>
                     <Button variant="contained"
+                        style={{
+                            marginTop:'15px',
+                            padding:'0px 40px'
+                        }}
                         onClick={this.handleSubmit}
                         className={classes.root} 
                         margin="normal"

@@ -6,7 +6,7 @@ const ThemedApp = () => {
     
     const [darkTheme, setdarkTheme] = useState(false)
     const paletteType = darkTheme?"dark":"light";
-    const mainPrimary = darkTheme ?"#00bcd4":"#E33A3A"
+    const mainPrimary = darkTheme ?"#000":"#727272"
     const mainSecondary = darkTheme ?"#000000":"#fff"
     
     const theme= createMuiTheme({
